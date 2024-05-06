@@ -1,4 +1,4 @@
 Email:
-  -name: DMARC.io
-  description: List of 3rd party services to help make it DMARC compliant for your domain(s).
-  link: https://dmarc.io/sources/
+  - name: DMARC.io
+    description: List of 3rd party services to help make it DMARC compliant for your domain(s).
+    link: https://dmarc.io/sources/
