@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Bookmarks
-description: UsefulBookmarks that I have used or found over the years.
+description: Useful Bookmarks that I have used or found over the years.
 ---
 
-Various online tools, databases, references, cheatsheets, etc, that I've found over the years to be helpful in my day to day work.
-
-If you have any suggestions to add, or a better way to organize this page, feel free to let me know in the comments.
+Useful bookmarks that I have used or found over the years:
 
 {% for category in site.data.bookmarks %}
 {% assign items = category[1] | sort_natural: "name" %}
