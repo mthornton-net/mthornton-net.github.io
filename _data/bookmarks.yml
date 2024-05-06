@@ -64,3 +64,50 @@ Network:
   - name: WhatIsMyIP
     description: Used to check your IP and location of other IP addresses (Useful for tracking which country an IP address is coming from).
     link: https://whatismyipaddress.com/
+
+Security:
+  
+  - name: VirusTotal
+    description: Used to check if a given file, hash, URL, etc matches with any given AntiVirus.
+    link: https://www.virustotal.com/gui/home/upload
+
+  - name: HaveIBeenPwned
+    description: Used to see if a email address or password has been founf in a known data breach.
+    link: https://haveibeenpwned.com/
+
+  - name: Expand URL
+    description: Used to expand a shortend URL.
+    link: https://www.expandurl.net/
+
+  - name: GetLinkInfo
+    description: Used to get info/expand a shortened URL.
+    link: https://www.getlinkinfo.com/
+
+  - name: Cert Search
+    description: Used to get information about public certificates.
+    link: https://crt.sh/
+
+  - name: AbuseIPDB
+    description: Used to verify if a given IP address is reporting malicious behavior.
+    link: https://www.abuseipdb.com/
+
+Misc:
+  - name: WolfRam Alpha
+    description: AI tool to calculate a given input for a wide variety of subjects.
+    link: https://www.wolframalpha.com/
+
+  - name: Intel Hardware Verification
+    description: Used to check if a given Intel product that has a YottaMark or BradyID is genuine.
+    link: https://www.intel.com/content/www/us/en/support/articles/000007074/network-and-i-o/ethernet-products.html
+
+  - name: PCI Lookup
+    description: Used to get the name/description of a device based on Vendor ID and Device ID,
+    link: https://www.pcilookup.com/
+
+  - name: User Agent Parser
+    description: Used to check what type of device it is based on the user agent string.
+    link: https://developers.whatismybrowser.com/useragents/parse/
+
+  - name: Enf-Of-Life Lookup
+    description: Used to see if a given product has reached end-of-life or when.
+    link: https://endoflife.date/
