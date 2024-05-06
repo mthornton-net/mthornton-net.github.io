@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Changing Default OU For New Computers
-description: All the quirks with using raiserror
-date: 2024-05-06 09:30:00 -0600
+description: Computer OU default for new machines
+date: 2024-05-06 09:30:00 -0500
 tags: Active-Directory
 ---
 
