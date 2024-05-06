@@ -4,9 +4,9 @@ description: "My personal technical blog. Come for a solution, stay for the cont
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "example@mail.com"
-twitter_username: "twitteruser"
-github_username: "githubuser"
+#email: "example@mail.com"
+#twitter_username: "twitteruser"
+#github_username: "githubuser"
 linkedin_username: "linkedinuser"
 #facebook_username: username
 #flickr_username: username
