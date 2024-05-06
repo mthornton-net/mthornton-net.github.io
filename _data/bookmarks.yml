@@ -2,3 +2,65 @@ Email:
   - name: DMARC.io
     description: List of 3rd party services to help make it DMARC compliant for your domain(s).
     link: https://dmarc.io/sources/
+
+  - name: Google Message Header Analyzer
+    description: Google's tool to analyze message headers from an email.
+    link: https://toolbox.googleapps.com/apps/messageheader/
+
+  - name: Office 365 Safelinks URL decoder
+    description: Used to decode safelinks URLs.
+    link: https://www.o365atp.com/
+
+  - name: SPF Checker
+    description: Used to check if a SPF record is valid for a given domain.
+    link: https://www.dmarcanalyzer.com/spf/checker/
+
+  - name: Microsoft Message Analyzer
+    description: Microsoft's tool to analyze message headers from an email.
+    link: https://mha.azurewebsites.net/
+
+  - name: MXToolbox
+    description: Used to test and check various email systems for a given domain.
+    link: https://mxtoolbox.com/SuperTool.aspx
+
+Microsoft:
+  - name: Microsoft Test Connectivity Tool
+    description: Used to test various Microsoft Services for troubleshooting purposes.
+    link: https://testconnectivity.microsoft.com/tests/o365
+
+Network:
+  - name: Downdector
+    description: Used to check if a given service(es) are having an outage.
+    link: https://downdetector.com/
+
+  - name: Wireshark OUI Lookup
+    description: Used to go through wireshark's database to find the manufacturer of a given MAC address.
+    link: https://www.wireshark.org/tools/oui-lookup.html
+
+  - name: Testmy.net
+    description: Used to test network connection speeds.
+    link: https://testmy.net/
+
+  - name: WhoIs Domain Tools
+    description: Used to get WhoIs information for a given IP Address, IP Block, and domain name.
+    link: https://whois.domaintools.com/
+
+  - name: DNS Checker
+    description: Used to check DNS records.
+    link: https://dnschecker.org/
+
+  - name: DNS Trails
+    description: Used to check historical DNS entries for a given domain (limited with a free account).
+    link: https://securitytrails.com/
+
+  - name: Outgoing Port Tester
+    description: Used to test a outgoing port to see if firewall rules are working.
+    link: http://portquiz.net/
+
+  - name: DNS Dumpster
+    description: Used to get dump of DNS records for a given domain.
+    link: https://dnsdumpster.com/
+
+  - name: WhatIsMyIP
+    description: Used to check your IP and location of other IP addresses (Useful for tracking which country an IP address is coming from).
+    link: https://whatismyipaddress.com/
