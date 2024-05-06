@@ -22,9 +22,6 @@ theme: "minima"
 
 rss: rss
 
-header_pages:
-  - archive.html
-  - bookmarks.md
 
 kramdown:
   syntax_highlighter_opts:
