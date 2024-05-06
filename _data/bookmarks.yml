@@ -108,6 +108,6 @@ Misc:
     description: Used to check what type of device it is based on the user agent string.
     link: https://developers.whatismybrowser.com/useragents/parse/
 
-  - name: Enf-Of-Life Lookup
+  - name: End-Of-Life Lookup
     description: Used to see if a given product has reached end-of-life or when.
     link: https://endoflife.date/
