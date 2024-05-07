@@ -111,3 +111,7 @@ Misc:
   - name: End-Of-Life Lookup
     description: Used to see if a given product has reached end-of-life or when.
     link: https://endoflife.date/
+
+  - name: Mermaid Live Editor
+    description: For help on creating diagrams in markdown and see them in real time.
+    link: https://mermaid-js.github.io/mermaid-live-editor
