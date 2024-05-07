@@ -91,6 +91,10 @@ Security:
     description: Used to verify if a given IP address is reporting malicious behavior.
     link: https://www.abuseipdb.com/
 
+  - name: STIG List
+    description: List of best practices to apply for various products, operating systems, etc.
+    link: https://www.stigviewer.com/stigs
+
 Misc:
   - name: WolfRam Alpha
     description: AI tool to calculate a given input for a wide variety of subjects.
