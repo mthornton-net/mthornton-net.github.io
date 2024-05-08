@@ -61,7 +61,7 @@ Hint: To figure out what all the values mean from above you can open the event v
 
 ## Method One
 
-First lets address the pros and cons of using this Method:
+This method works universally on most Windows operating systems, but first lets address the pros and cons of using this Method:
 
 |Pros|Cons|
 |---|---|
@@ -116,7 +116,7 @@ This method is a more "modern" way of creating lists, like before here are the p
 
 |Pros|Cons|
 |---|---|
-|This will make/add columns easier|This will not work on older versions of windows (before Windows 10)|
+|This will make/add columns easier|This will not work on older versions of windows (before Windows 10 and Server 2012)|
 
 We will use the same data as the previous example to make a custom list. First what you need to do is to declair a list object:
 
@@ -137,7 +137,7 @@ foreach ($Event in $Events){
 }
 ```
 
-As you can see there is a lot of less lines to put in and if you need to add columns it's simple as making a new name and tell what data it needs.
+As you can see there is a lot less lines to put in and if you need to add columns it's simple as making a new name and tell what data it needs.
 
 The output will be the exact same as before:
 
