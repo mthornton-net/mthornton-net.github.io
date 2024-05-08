@@ -18,7 +18,7 @@ Here are the switches you can use with this command:
 
 - /R - Recursive search
 - /Q = Quiet mode
-   - This will not return anything on the console, instead it'll either dump a 0 or a 1 to %errorlevel%.
+   - This will not return anything on the console, instead it'll either dump a 0 (If the search was successful in finding anything against the search criteria) or a 1 (If the search was unsuccessful in finding anything against the search criteria) to %errorlevel%.
    - you can just type `echo %errorlevel%` in a command prompt to get the code.
 - /F = Displays the files in double quotes
 - /T = Displays the file size and last modified time for the matching file(s)
