@@ -89,7 +89,7 @@ foreach ($Event in $Events){
 }
 ```
 
-As you notice from above we are getting all the data we need for each event entry stored in the $Event variable. what the $Row is doing is that not only its declairing itself as a variable so it knows it exist but it also clears any data that was stored in it so it can add new data to the $Data variable and it creates its own variables "Time", "User" and "IPAddress".
+As you notice from above we are getting all the data we need for each event entry stored in the $Event variable. what the $Row is doing is that not only its declairing itself as a variable so it knows it exist but it also clears any data that was stored in it so it can add new data to the $Data variable on each loop, and it creates its own properties "Time", "User" and "IPAddress".
 
 At the very bottom it adds all the data from the $Row variable to the $Data variable. 
 
