@@ -2,7 +2,7 @@
 layout: post
 title: Where Windows Command? Yes, Right Here!
 description: Windows where command
-date: 2024-05-07 22:30:00 -0500
+date: 2024-05-07 21:45:00 -0500
 tags: Windows
 ---
 
