@@ -31,4 +31,4 @@ where /r d:\ *.html
 
 ## Where vs Dir /S /B|Find /I "Whatever String"
 
-Now you can probably saying whats the difference between the two? from a functionality perspective its the same, but using fewer commands can make your code a bit cleaner if you can use just one command vs two if not more just to perform the same task.
+Now you are probably saying whats the difference between the two? from a functionality perspective its the same, but using fewer commands can make your code a bit cleaner if you can use just one command vs two if not more just to perform the same task.
