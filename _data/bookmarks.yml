@@ -28,6 +28,10 @@ Microsoft:
     description: Used to test various Microsoft Services for troubleshooting purposes.
     link: https://testconnectivity.microsoft.com/tests/o365
 
+  - name: ADMX.help
+    description: Used to find the registry equivalent for Group Policy settings.
+    link: https://admx.help/
+
 Network:
   - name: Downdector
     description: Used to check if a given service(es) are having an outage.
