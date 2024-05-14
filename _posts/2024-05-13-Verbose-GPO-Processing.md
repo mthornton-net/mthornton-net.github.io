@@ -10,7 +10,7 @@ tags: Active-Directory
 
 ## How To Verbose This
 
-Often times if you have a handful of Group Policies applied, software or other miscellaneous settings applied to a machine sometimes it's hard to determine which what is being stuck. We are going to determine how we can see this by being a bit verbose on the post boot screen rather than Windows saying "Please Wait..."
+Often times if you have a handful of Group Policies, software or other miscellaneous settings applied to a machine, sometimes it's hard to determine what is being stuck. We are going to show how we can see this by being a bit verbose on the Logon, Logoff and startup screen rather than Windows saying "Please Wait..."
 
 To do this, create a computer GPO and create the following GPP for the registry:
 
@@ -19,7 +19,7 @@ To do this, create a computer GPO and create the following GPP for the registry:
 - Type: DWORD
 - Data: 1
 
-When you are done creating the GPO and you have linked it, run a `gpupdate /force` in CMD and then reboot the machine. Now you can see a more verbose output when it tries to load the logon screen.
+When you are done creating the GPO and you have linked it, run a `gpupdate /force` in CMD and then reboot the machine. Now you can see a more verbose output when you logoff, logon and startup.
 
 Here's an example, I've made a Group Policy where it assigns Google Chrome to Computers and this is the output after a reboot:
 
