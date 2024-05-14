@@ -76,7 +76,7 @@ Security:
     link: https://www.virustotal.com/gui/home/upload
 
   - name: HaveIBeenPwned
-    description: Used to see if a email address or password has been founf in a known data breach.
+    description: Used to see if a email address or password has been found in a known data breach.
     link: https://haveibeenpwned.com/
 
   - name: Expand URL
