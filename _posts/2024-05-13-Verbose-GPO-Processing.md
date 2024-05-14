@@ -21,7 +21,7 @@ To do this, create a computer GPO and create the following GPP for the registry:
 
 When you are done creating the GPO and you have linked it, run a `gpupdate /force` in CMD and then reboot the machine. Now you can see a more verbose output when it tries to load the logon screen.
 
-Here's an example, I've made a Group Policy where it assigns Google Chrome to Computers and this is what it'll show that its being processed:
+Here's an example, I've made a Group Policy where it assigns Google Chrome to Computers and this is the output after a reboot:
 
 ![GPO Process](/images/posts/2024-05-13-GPO-Verbose/Screenshot-2024-05-13.png)
 
