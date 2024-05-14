@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Figuring Out Which GPO Is Being Processed Or Stuck
+title: Verbose Logon, Logoff And Startup Messages
 description: GPO Quick Tip
 date: 2024-05-13 21:10:00 -0500
 tags: Active-Directory
 ---
 
-# Figuring Out Which GPO Is Being Processed Or Stuck
+# Verbose Logon, Logoff And Startup Messages
 
 ## How To Verbose This
 
-Often times if you have a handful of Group Policies applied to a machine sometimes it's hard to determine which GPO is being stuck. We are going to determine how we can see this by being a bit verbose on the post boot screen rather than Windows saying "Please Wait..."
+Often times if you have a handful of Group Policies applied, software or other miscellaneous settings applied to a machine sometimes it's hard to determine which what is being stuck. We are going to determine how we can see this by being a bit verbose on the post boot screen rather than Windows saying "Please Wait..."
 
 To do this, create a computer GPO and create the following GPP for the registry:
 
@@ -25,4 +25,4 @@ Here's an example, I've made a Group Policy where it assigns Google Chrome to Co
 
 ![GPO Process](/images/posts/2024-05-13-GPO-Verbose/Screenshot-2024-05-13.png)
 
-Not only is this useful on troubleshooting which GPO is taking a long time to process but it can take the guessing work out from "Why is this taking so long?"
+Not only is this useful on troubleshooting which GPO or setting is taking a long time to process but it can take the guessing work out from "Why is this taking so long?"
