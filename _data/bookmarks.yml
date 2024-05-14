@@ -1,6 +1,6 @@
 Email:
   - name: DMARC.io
-    description: List of 3rd party services to help make it DMARC compliant for your domain(s).
+    description: List of 3rd party services to ensure your domain(s) are DMARC compliant..
     link: https://dmarc.io/sources/
 
   - name: Google Message Header Analyzer
