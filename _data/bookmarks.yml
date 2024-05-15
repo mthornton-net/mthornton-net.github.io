@@ -69,6 +69,10 @@ Network:
     description: Used to check your IP and location of other IP addresses (Useful for tracking which country an IP address is coming from).
     link: https://whatismyipaddress.com/
 
+  - name: Cloudflare Speed Test
+    description: Cloudflares tool to measure network speeds and provide detailed results.
+    link: https://speed.cloudflare.com/
+
 Security:
   
   - name: VirusTotal
