@@ -67,7 +67,7 @@ This method works universally on most Windows operating systems, but first lets 
 |---|---|
 |This can work on most windows operating systems (This works on Windows 7 and 2008 R2)|It can be tedious to add more data if needed| 
 
-First declair your data variable and the events you want to read.
+First declare your data variable and the events you want to read.
 
 ```powershell
 $data = @()
@@ -89,7 +89,7 @@ foreach ($Event in $Events){
 }
 ```
 
-As you notice from above we are getting all the data we need for each event entry stored in the $Event variable. what the $Row is doing is that not only its declairing itself as a variable so it knows it exist but it also clears any data that was stored in it so it can add new data to the $Data variable on each loop, and it creates its own properties "Time", "User" and "IPAddress".
+As you notice from above we are getting all the data we need for each event entry stored in the $Event variable. what the $Row is doing is that not only its declaring itself as a variable so it knows it exist but it also clears any data that was stored in it so it can add new data to the $Data variable on each loop, and it creates its own properties "Time", "User" and "IPAddress".
 
 At the very bottom it adds all the data from the $Row variable to the $Data variable. 
 
@@ -118,7 +118,7 @@ This method is a more "modern" way of creating lists, like before here are the p
 |---|---|
 |This will make/add columns easier|This will not work on older versions of windows (before Windows 10 and Server 2012)|
 
-We will use the same data as the previous example to make a custom list. First what you need to do is to declair a list object:
+We will use the same data as the previous example to make a custom list. First what you need to do is to declare a list object:
 
 ```powershell
 $Data = [System.Collections.Generic.List[Object]]::new()
