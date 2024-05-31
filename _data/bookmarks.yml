@@ -73,6 +73,10 @@ Network:
     description: Cloudflares tool to measure network speeds and provide detailed results.
     link: https://speed.cloudflare.com/
 
+  - name: StormControl.net
+    description: Used to calculate subnets, get vendor of a MAC address, bit conversion, WHOIS, and BGP.
+    link: stormcontrol.net
+
 Security:
   
   - name: VirusTotal
