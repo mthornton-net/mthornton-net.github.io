@@ -75,7 +75,7 @@ Network:
 
   - name: StormControl.net
     description: Used to calculate subnets, get vendor of a MAC address, bit conversion, WHOIS, and BGP.
-    link: stormcontrol.net
+    link: https://stormcontrol.net
 
 Security:
   
