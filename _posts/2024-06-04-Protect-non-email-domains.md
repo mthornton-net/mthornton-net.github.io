@@ -38,7 +38,7 @@ Create or update the TXT record for your domain (if you have more than one DKIM 
 
 The entry above tells that nothing should be signing your domain as there is no public key to verify against. The wildcard ensures that any possible variations of a spoofed DKIM record cannot be used against your domain.
 
-## DMARC
+## DMARC Record
 
 Create or update the following DMARC record for your domain:
 
