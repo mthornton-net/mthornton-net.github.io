@@ -48,10 +48,25 @@ Type: TXT
 - Value `v=DMARC1;p=reject;sp=reject;adkim=s;aspf=s`
 
 Here is what the above means:
-- p=reject - This means that the policy is set to reject emails that fail SPF and DKIM checks.
-- sp=reject – Like p=reject but for sub domains.
-- adkim=s – This tells that the DKIM alignment for your domain is set to strict, if the server of the email domain that is not aligned with the “from” header DKIM will fail.
-- aspf=s – Same as for adkim but for SPF.
+- `p=reject` - This means that the policy is set to reject emails that fail SPF and DKIM checks.
+- `sp=reject` – Like p=reject but for sub domains.
+- `adkim=s` – This tells that the DKIM alignment for your domain is set to strict, if the server of the email domain that is not aligned with the “from” header DKIM will fail.
+- `aspf=s` – Same as for adkim but for SPF.
+
+### Optional DMARC Options
+
+This step is not required but if you want to report any DMARC failures that dont align with SPF or DKIM use the following switches:
+
+- `fo=1` - This is a "Failure Reporting Option", there are other options (0,1,d or s) but 1 is the most recommended. This means that it'll generate a DMARC fail report if either SPF or DKIM alignment doesnt generate a "pass" result.
+- `rua=mailto:mailbox@yourdomain.com` - This tells where to send aggregated email reports to. Ideally its recommended to set it up with a 3rd party provider to congest these emails but you can still send them to any mailbox that can receive email. This field can also accept multiple emails so if you need to add another mailbox you can add a comma and put in another email address (eg. `rua=mailto:user1@yourdomain.com, mailto:user2@yourdomain.com`)
+
+Here is what your DMARC record should look like if you want the optional features in place:
+
+With a Single Mailbox:
+`v=DMARC1;p=reject;sp=reject;adkim=s;aspf=s;fo=1;rua=mailto:mailbox@yourdomain.com`
+
+With Multiple Mailboxes:
+`v=DMARC1;p=reject;sp=reject;adkim=s;aspf=s;fo=1;rua=mailto:user1@yourdomain.com, mailto:user2@yourdomain.com`
 
 ## Optional - Set A Null MX Record
 
