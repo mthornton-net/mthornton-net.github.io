@@ -36,7 +36,7 @@ Create or update the TXT record for your domain (if you have more than one DKIM 
 - Host: `*._domainkey`
 - Value: `v=DKIM1; p=`
 
-The entry above tells that nothing should be signing your domain as there is no public key to verify against. The wildcard ensures that any possible variations of a spoofed DKIM record cannot be used against your domain.
+The entry above tells that nothing should be signing any emails against your domain as there is no public key to verify against. The wildcard ensures that any possible variations of a spoofed DKIM record cannot be used against your domain.
 
 ## DMARC Record
 
