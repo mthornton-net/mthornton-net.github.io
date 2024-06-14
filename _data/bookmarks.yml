@@ -107,6 +107,9 @@ Security:
     description: List of best practices to apply for various products, operating systems, etc.
     link: https://www.stigviewer.com/stigs
 
+  - name: AD Security
+    description: Blog site for Active Directory security and best practices.
+    link: https://adsecurity.org/
 Misc:
   - name: WolfRam Alpha
     description: AI tool to calculate a given input for a wide variety of subjects.
