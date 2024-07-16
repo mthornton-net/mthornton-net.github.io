@@ -134,3 +134,7 @@ Misc:
   - name: Mermaid Live Editor
     description: For help on creating diagrams in markdown and see them in real time.
     link: https://mermaid-js.github.io/mermaid-live-editor
+
+  - name: Discohook
+    description: Editor and live preview tool for crafting discord messages against a webhook.
+    link: https://discohook.org/
